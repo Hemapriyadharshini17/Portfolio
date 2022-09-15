@@ -4,9 +4,9 @@
   background-color: white;
   display: flex;
 
-//   @include mobile {
-//     flex-direction: column;
-//   }
+  //   @include mobile {
+  //     flex-direction: column;
+  //   }
 
   .left {
     flex: 1;
@@ -14,8 +14,6 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-
-
 
     img {
       height: 60%;

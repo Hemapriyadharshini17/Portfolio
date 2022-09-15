@@ -5,14 +5,14 @@ import { useEffect, useRef } from "react";
 export default function Intro() {
   const textRef = useRef();
 
-//   useEffect(() => {
-//     init(textRef.current, {
-//       showCursor: true,
-//       backDelay: 1500,
-//       backSpeed:60,
-//       strings: ["Developer", "Designer", "Content Creator"],
-//     });
-//   }, []);
+  //   useEffect(() => {
+  //     init(textRef.current, {
+  //       showCursor: true,
+  //       backDelay: 1500,
+  //       backSpeed:60,
+  //       strings: ["Developer", "Designer", "Content Creator"],
+  //     });
+  //   }, []);
 
   return (
     <div className="intro" id="intro">
@@ -36,4 +36,3 @@ export default function Intro() {
     </div>
   );
 }
-
