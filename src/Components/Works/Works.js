@@ -1,12 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./Works.scss";
 
 export default function Works() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  // const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
+      icon: "./assets/Logo.png",
       title: "Web Development",
       desc:
         "Efficient Junior Web Developer with 9 months experience in Learny Technologies. Excellent communication and organisational abilities with a resourceful approach to solving diverse problem.",
@@ -31,11 +31,11 @@ export default function Works() {
     },
   ];
 
-  const handleClick = (way) => {
-    way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
-  };
+  // const handleClick = (way) => {
+  //   way === "left"
+  //     ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+  //     : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+  // };
   
   return (
     <div className="works" id="works">
