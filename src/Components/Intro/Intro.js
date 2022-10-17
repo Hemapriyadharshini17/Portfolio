@@ -1,4 +1,5 @@
 import "./Intro.scss";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import { init } from "ityped";
 import { useRef } from "react";
 
@@ -28,6 +29,12 @@ export default function Intro() {
           <h3>
             Web developer <span ref={textRef}></span>
           </h3>
+          {/* <div className="icons">
+          <a href="linkedin.com/in/hemapriyadharshini-rajendiran">
+            <LinkedInIcon/> 
+            <i class="bi bi-linkedin"></i>
+            </a>
+          </div> */}
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

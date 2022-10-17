@@ -7,7 +7,7 @@ import Works from "./Components/Works/Works";
 import Contact from "./Components/Contact/Contact";
 import { useState } from "react";
 import Menu from "./Components/Menu/Menu";
-import Testimonials from "./Components/Testimonials/Testimonials";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ function App() {
         {/* <Portfolio/> */}
         <Works />
         {/* <Internship/> */}
-        <Testimonials />
+        <Skills />
         <Contact />
       </div>
     </div>

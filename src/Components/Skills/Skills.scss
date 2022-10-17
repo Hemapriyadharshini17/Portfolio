@@ -1,11 +1,20 @@
 @import "../../Global.scss";
 
-.testimonials {
+.skills {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
+  align-items: center; 
+    background-image: 
+    // linear-gradient( to top,
+    // rgba(255, 255, 0, 0.5),
+    // rgba(0, 0, 255, 0.5)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7iMCiW1370_VDYtI5bhIKR-TYcq59ISSEtg&usqp=CAU");
+    // img{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // }
 //   @include mobile{
 //     justify-content: space-around;
 //   }
